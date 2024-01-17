@@ -8,6 +8,7 @@
 	<!--<bean id="vehicle" class="com.gautam.demoProject.Car"></bean> -->
 	
 	<bean id="tyre" class="com.gautam.demoProject.Tyre">
-		<property name="brand" value="MRF"></property>
+		<!--<property name="brand" value="MRF"></property>-->
+		<constructor-arg value="ceat"></constructor-arg>
 	</bean>
 </beans>
