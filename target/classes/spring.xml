@@ -6,4 +6,8 @@
 
 	<context:component-scan base-package="com.gautam.demoProject"></context:component-scan>
 	<!--<bean id="vehicle" class="com.gautam.demoProject.Car"></bean> -->
+	
+	<bean id="tyre" class="com.gautam.demoProject.Tyre">
+		<property name="brand" value="MRF"></property>
+	</bean>
 </beans>
